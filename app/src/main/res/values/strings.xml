@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Track Cricket Score</string>
+    <string name="reset_scores">Reset Scores</string>
+    <string name="wicket">Wicket</string>
+    <string name="wide_ball">Wide Ball</string>
+    <string name="no_ball">No Ball</string>
+    <string name="one_run">+1 Run</string>
+    <string name="two_runs">+2 Runs</string>
+    <string name="three_runs">+3 Runs</string>
+    <string name="four_runs">+4 Runs</string>
+    <string name="six_runs">SIX</string>
+    <string name="zero_wicket">0</string>
+    <string name="total_wickets">Total Wickets</string>
+    <string name="zero_score">0</string>
+    <string name="total_runs">Total Runs</string>
+    <string name="team_b">Team B</string>
+    <string name="team_a">Team A</string>
 </resources>
