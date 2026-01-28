@@ -40,7 +40,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Team A"
+                android:text="@string/team_a"
                 android:textColor="#34d5e6"
                 android:textSize="24sp" />
 
@@ -50,7 +50,7 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
                 android:paddingBottom="8dp"
-                android:text="Total Runs"
+                android:text="@string/total_runs"
                 android:textColor="#e9b44c"
                 android:textSize="16sp" />
 
@@ -61,7 +61,7 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
                 android:paddingBottom="8dp"
-                android:text="0"
+                android:text="@string/zero_score"
                 android:textColor="#e9b44c"
                 android:textSize="24sp" />
 
@@ -71,7 +71,7 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
                 android:paddingBottom="8dp"
-                android:text="Total Wickets"
+                android:text="@string/total_wickets"
                 android:textColor="#ffff00"
                 android:textSize="16sp" />
 
@@ -81,7 +81,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
-                android:text="0"
+                android:text="@string/zero_wicket"
                 android:textColor="#ffff00"
                 android:textSize="24sp" />
 
@@ -92,7 +92,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addSixForTeamA"
-                android:text="SIX" />
+                android:text="@string/six_runs" />
 
             <Button
                 android:layout_width="match_parent"
@@ -101,7 +101,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addFourForTeamA"
-                android:text="FOUR" />
+                android:text="@string/four_runs" />
 
             <Button
                 android:layout_width="match_parent"
@@ -110,7 +110,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addThreeForTeamA"
-                android:text="+3 Runs" />
+                android:text="@string/three_runs" />
 
             <Button
                 android:layout_width="match_parent"
@@ -119,7 +119,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addTwoForTeamA"
-                android:text="+2 Runs" />
+                android:text="@string/two_runs" />
 
             <Button
                 android:layout_width="match_parent"
@@ -128,7 +128,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addOneForTeamA"
-                android:text="+1 Run" />
+                android:text="@string/one_run" />
 
             <Button
                 android:layout_width="match_parent"
@@ -137,7 +137,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addOneForTeamA"
-                android:text="No Ball" />
+                android:text="@string/no_ball" />
 
             <Button
                 android:layout_width="match_parent"
@@ -146,7 +146,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addOneForTeamA"
-                android:text="Wide Ball" />
+                android:text="@string/wide_ball" />
 
             <Button
                 android:layout_width="match_parent"
@@ -155,7 +155,7 @@
                 android:layout_marginRight="22dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="OneMoreWicketTeamA"
-                android:text="Wicket" />
+                android:text="@string/wicket" />
         </LinearLayout>
 
         <LinearLayout
@@ -171,7 +171,7 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
                 android:padding="8dp"
-                android:text="Team B"
+                android:text="@string/team_b"
                 android:textColor="#61ce19"
                 android:textSize="24sp" />
 
@@ -181,7 +181,7 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
                 android:paddingBottom="8dp"
-                android:text="Total Runs"
+                android:text="@string/total_runs"
                 android:textColor="#e9b44c"
                 android:textSize="16sp" />
 
@@ -192,7 +192,7 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
                 android:paddingBottom="8dp"
-                android:text="0"
+                android:text="@string/zero_score"
                 android:textColor="#e9b44c"
                 android:textSize="24sp" />
 
@@ -202,7 +202,7 @@
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
                 android:paddingBottom="8dp"
-                android:text="Total Wickets"
+                android:text="@string/total_wickets"
                 android:textColor="#ffff00"
                 android:textSize="16sp" />
 
@@ -212,7 +212,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center"
-                android:text="0"
+                android:text="@string/zero_wicket"
                 android:textColor="#ffff00"
                 android:textSize="24sp" />
 
@@ -223,7 +223,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addSixForTeamB"
-                android:text="SIX" />
+                android:text="@string/six_runs" />
 
             <Button
                 android:layout_width="match_parent"
@@ -232,7 +232,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addFourForTeamB"
-                android:text="FOUR" />
+                android:text="@string/four_runs" />
 
             <Button
                 android:layout_width="match_parent"
@@ -241,7 +241,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addThreeForTeamB"
-                android:text="+3 Runs" />
+                android:text="@string/three_runs" />
 
             <Button
                 android:layout_width="match_parent"
@@ -250,7 +250,7 @@
                 android:layout_marginRight="22dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addTwoForTeamB"
-                android:text="+2 Runs" />
+                android:text="@string/two_runs" />
 
             <Button
                 android:layout_width="match_parent"
@@ -258,8 +258,8 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
-                android:onClick="addOneForTeamA"
-                android:text="+1 Run" />
+                android:onClick="addOneForTeamB"
+                android:text="@string/one_run" />
 
             <Button
                 android:layout_width="match_parent"
@@ -267,8 +267,8 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
-                android:onClick="addOneForTeamA"
-                android:text="No Ball" />
+                android:onClick="addOneForTeamB"
+                android:text="@string/no_ball" />
 
             <Button
                 android:layout_width="match_parent"
@@ -276,8 +276,8 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
-                android:onClick="addOneForTeamA"
-                android:text="Wide Ball" />
+                android:onClick="addOneForTeamB"
+                android:text="@string/wide_ball" />
 
             <Button
                 android:layout_width="match_parent"
@@ -286,7 +286,7 @@
                 android:layout_marginRight="22dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="OneMoreWicketTeamB"
-                android:text="Wicket" />
+                android:text="@string/wicket" />
         </LinearLayout>
     </LinearLayout>
     </ScrollView>
@@ -300,6 +300,6 @@
         android:background="@android:color/white"
         android:onClick="resetScore"
         android:padding="8dp"
-        android:text="Reset Scores"
+        android:text="@string/reset_scores"
         android:textColor="#ff0000" />
 </RelativeLayout>
