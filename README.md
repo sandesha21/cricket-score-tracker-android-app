@@ -4,14 +4,30 @@ An Android application for tracking cricket match scores between two teams. Keep
 
 ## Features
 
-- **Score Tracking**: Track runs for both teams (1, 2, 3, 4, 6 runs)
+- **Score Tracking**: Track runs for both teams (1, 2, 3, 4, 6, extra runs)
 - **Wicket Management**: Count wickets fallen for each team (max 10 per team)
 - **Match Reset**: Reset scores and wickets to start a new match
 - **Real-time Updates**: Instant score updates with button taps
 - **Clean UI**: Simple and intuitive interface for easy scoring
 
 ## Screenshots
-TBD
+
+<div align="center">
+  <img src="screenshots/home_screen.png" alt="Cricket Score Tracker Home" width="250"/>
+  <img src="screenshots/match_progress.png" alt="Match in Progress" width="250"/>
+</div>
+
+### App Features
+| Home Screen | Scoring Interface | Match Reset |
+|-------------|-------------------|-------------|
+| Clean interface with team names | Easy run buttons (1,2,3,4,6) | Quick reset functionality |
+| Wicket counters for both teams | Real-time score updates | Professional cricket layout |
+
+## Demo
+
+![Cricket Tracker Demo](screenshots/demo.webm)
+
+*GIF showing the app in action - adding runs, wickets, and resetting match*
 
 ## Technical Details
 
@@ -39,23 +55,32 @@ TBD
 
 ## Usage
 
-1. **Adding Runs**: Tap the run buttons (1, 2, 3, 4, 6) under each team to add runs
+1. **Adding Runs**: Tap the run buttons (1, 2, 3, 4, 6, extras) under each team to add runs
 2. **Adding Wickets**: Tap the wicket button to increment wickets (max 10)
 3. **Reset Match**: Use the reset button to start a new match
 
 ## Project Structure
 
 ```
-app/
-├── src/main/
-│   ├── java/com/example/android/trackcricketscore/
-│   │   └── MainActivity.java
-│   ├── res/
-│   │   ├── layout/
-│   │   ├── values/
-│   │   └── drawable/
-│   └── AndroidManifest.xml
-└── build.gradle
+├── app/
+│   ├── src/main/
+│   │   ├── java/com/example/android/trackcricketscore/
+│   │   │   └── MainActivity.java
+│   │   ├── res/
+│   │   │   ├── layout/
+│   │   │   ├── values/
+│   │   │   └── drawable/
+│   │   └── AndroidManifest.xml
+│   └── build.gradle
+├── screenshots/
+│   ├── home_screen.png
+│   ├── team_a_scoring.png
+│   ├── match_progress.png
+│   └── demo.gif
+├── gradle/
+├── build.gradle
+├── README.md
+└── .gitignore
 ```
 
 ## Contributing
@@ -78,5 +103,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Built as part of Android Basics Nanodegree program
+- Built as part of Google Android Nanodegree program
 - Inspired by the need for simple cricket scoring solutionss
