@@ -1,14 +1,39 @@
 # Cricket Score Tracker 🏏
 
+[![Android](https://img.shields.io/badge/Platform-Android-green.svg)](https://developer.android.com)
+[![API](https://img.shields.io/badge/API-24%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=24)
+[![Java](https://img.shields.io/badge/Language-Java-orange.svg)](https://www.java.com)
+[![Gradle](https://img.shields.io/badge/Gradle-8.5-blue.svg)](https://gradle.org)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/yourusername/cricket-score-tracker.svg)](https://github.com/yourusername/cricket-score-tracker/stargazers)
+
 An Android application for tracking cricket match scores between two teams. Keep track of runs, wickets, and match statistics with an intuitive and user-friendly interface.
+
+---
+
+## 🏷️ Keywords & Topics
+
+**Primary Keywords**: Android Development • Mobile App • Cricket Scoring • Sports Technology • Java Programming • Score Tracking
+
+**Technical Stack**: Android SDK • Java • AndroidX • Gradle • XML Layouts • Material Design • Git Version Control
+
+**App Features**: Real-time Scoring • Wicket Management • Match Reset • Team Statistics • User Interface Design • Touch Controls
+
+**Industry**: Sports Technology • Cricket Analytics • Mobile Gaming • Educational Apps • Open Source • Android Development
+
+**Project Type**: Native Mobile Application • Sports Utility • Educational Project • Portfolio Showcase
+
+---
 
 ## Features
 
-- **Score Tracking**: Track runs for both teams (1, 2, 3, 4, 6, extra runs)
+- **Score Tracking**: Track runs for both teams (1, 2, 3, 4, 6 runs)
 - **Wicket Management**: Count wickets fallen for each team (max 10 per team)
 - **Match Reset**: Reset scores and wickets to start a new match
 - **Real-time Updates**: Instant score updates with button taps
 - **Clean UI**: Simple and intuitive interface for easy scoring
+
+---
 
 ## Screenshots
 
@@ -27,7 +52,7 @@ An Android application for tracking cricket match scores between two teams. Keep
 
 ![Cricket Tracker Demo](screenshots/demo.webm)
 
-*GIF showing the app in action - adding runs, wickets, and resetting match*
+---
 
 ## Technical Details
 
@@ -37,6 +62,8 @@ An Android application for tracking cricket match scores between two teams. Keep
 - **Target SDK**: API 36
 - **Build System**: Gradle
 - **Architecture**: AndroidX
+
+---
 
 ## Getting Started
 
@@ -48,16 +75,20 @@ An Android application for tracking cricket match scores between two teams. Keep
 ### Installation
 1. Clone the repository
    ```bash
-   git clone https://github.com/sandesha21/cricket-score-tracker.git
+   git clone https://github.com/yourusername/cricket-score-tracker.git
    ```
 2. Open the project in Android Studio
 3. Build and run the app on your device or emulator
 
+---
+
 ## Usage
 
-1. **Adding Runs**: Tap the run buttons (1, 2, 3, 4, 6, extras) under each team to add runs
+1. **Adding Runs**: Tap the run buttons (1, 2, 3, 4, 6) under each team to add runs
 2. **Adding Wickets**: Tap the wicket button to increment wickets (max 10)
 3. **Reset Match**: Use the reset button to start a new match
+
+---
 
 ## Project Structure
 
@@ -83,6 +114,8 @@ An Android application for tracking cricket match scores between two teams. Keep
 └── .gitignore
 ```
 
+---
+
 ## Contributing
 
 1. Fork the repository
@@ -91,9 +124,13 @@ An Android application for tracking cricket match scores between two teams. Keep
 4. Push to the branch (`git push origin feature/new-feature`)
 5. Create a Pull Request
 
+---
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
 
 ## 👨‍💻 Author  
 **Sandesh S. Badwaik**  
@@ -101,7 +138,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sbadwaik/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sandesha21)
 
+---
+
 ## Acknowledgments
 
 - Built as part of Google Android Nanodegree program
-- Inspired by the need for simple cricket scoring solutionss
+- Inspired by the need for simple cricket scoring solutions
+
+---
+
+🌟 If you found this project helpful, please give it a ⭐!
