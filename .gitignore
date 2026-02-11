@@ -45,6 +45,10 @@ captures/
 .idea/caches
 .idea/modules.xml
 .idea/navEditor.xml
+.idea/aws.xml
+.idea/deviceManager.xml
+.idea/migrations.xml
+.idea/markdown.xml
 
 # Keystore files
 *.jks
@@ -88,3 +92,14 @@ Desktop.ini
 
 # VS Code
 .vscode/
+
+# Android Profiling
+*.hprof
+
+# Backup files
+*.bak
+*.tmp
+*~
+
+# Screenshots (uncomment if you want to ignore them)
+# screenshots/
