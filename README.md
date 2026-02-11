@@ -67,17 +67,24 @@ An Android application for tracking cricket match scores between two teams. Keep
 ## Getting Started
 
 ### Prerequisites
-- Android Studio
+- Android Studio (latest version recommended)
 - Android SDK API 24+
-- Java 8+
+- Java 8 or higher
+- Git
 
 ### Installation
 1. Clone the repository
    ```bash
    git clone https://github.com/sandesha21/cricket-score-tracker.git
+   cd cricket-score-tracker
    ```
 2. Open the project in Android Studio
-3. Build and run the app on your device or emulator
+3. Sync Gradle files (Android Studio will prompt automatically)
+4. Build and run the app on your device or emulator
+   ```bash
+   ./gradlew build
+   ./gradlew installDebug
+   ```
 
 ---
 
@@ -86,6 +93,19 @@ An Android application for tracking cricket match scores between two teams. Keep
 1. **Adding Runs**: Tap the run buttons (1, 2, 3, 4, 6) under each team to add runs
 2. **Adding Wickets**: Tap the wicket button to increment wickets (max 10)
 3. **Reset Match**: Use the reset button to start a new match
+
+---
+
+## Troubleshooting
+
+### Build Issues
+- **Gradle sync fails**: Try `File → Invalidate Caches → Invalidate and Restart`
+- **SDK not found**: Ensure Android SDK API 24+ is installed via Android Studio SDK Manager
+- **Java version error**: Verify Java 8+ is installed: `java -version`
+
+### Runtime Issues
+- **App crashes on launch**: Check that all dependencies are properly synced
+- **UI elements not displaying**: Ensure AndroidX is properly configured in `gradle.properties`
 
 ---
 
@@ -143,7 +163,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ## Acknowledgments
 
-- Built as part of Android Basics Nanodegree program
+- Built as part of Android Nanodegree program
 - Inspired by the need for simple cricket scoring solutions
 
 ---
