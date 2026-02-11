@@ -4,8 +4,7 @@
 [![API](https://img.shields.io/badge/API-24%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=24)
 [![Java](https://img.shields.io/badge/Language-Java-orange.svg)](https://www.java.com)
 [![Gradle](https://img.shields.io/badge/Gradle-8.5-blue.svg)](https://gradle.org)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/yourusername/cricket-score-tracker.svg)](https://github.com/yourusername/cricket-score-tracker/stargazers)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
 An Android application for tracking cricket match scores between two teams. Keep track of runs, wickets, and match statistics with an intuitive and user-friendly interface.
 
@@ -75,7 +74,7 @@ An Android application for tracking cricket match scores between two teams. Keep
 ### Installation
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/cricket-score-tracker.git
+   git clone https://github.com/sandesha21/cricket-score-tracker.git
    ```
 2. Open the project in Android Studio
 3. Build and run the app on your device or emulator
@@ -105,13 +104,15 @@ An Android application for tracking cricket match scores between two teams. Keep
 │   └── build.gradle
 ├── screenshots/
 │   ├── home_screen.png
-│   ├── team_a_scoring.png
 │   ├── match_progress.png
-│   └── demo.gif
+│   └── demo.webm
 ├── gradle/
 ├── build.gradle
+├── gradle.properties
 ├── README.md
-└── .gitignore
+├── PROJECT_DESCRIPTION.md
+├── .gitignore
+└── LICENSE
 ```
 
 ---
@@ -128,7 +129,7 @@ An Android application for tracking cricket match scores between two teams. Keep
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -142,7 +143,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- Built as part of Google Android Nanodegree program
+- Built as part of Android Basics Nanodegree program
 - Inspired by the need for simple cricket scoring solutions
 
 ---
